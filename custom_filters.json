@@ -1,0 +1,62 @@
+[
+    {
+        "laneTypeSpecific": "road_with_bike_lane",
+        "customFilter": "[\"cycleway\"~\".*\"]",
+        "laneTypeGeneral": "Bike lane",
+        "NO": "Vei med sykkelfil"
+    },
+    {
+        "laneTypeSpecific": "road_with_one_directional_bike_lane_right",
+        "customFilter": "[\"cycleway:right\"~\"lane\"]",
+        "laneTypeGeneral": "Bike lane, one directional",
+        "NO": "Sykkelvei enveiskj\u00f8rt"
+    },
+    {
+        "laneTypeSpecific": "road_with_one_directional_bike_lane_left",
+        "customFilter": "[\"cycleway:left\"~\"lane\"]",
+        "laneTypeGeneral": "Bike lane, one directional",
+        "NO": "Sykkelvei enveiskj\u00f8rt"
+    },
+    {
+        "laneTypeSpecific": "separate_pathway_for_pedestrians_and_bicyclists",
+        "customFilter": "[\"bicycle\"~\"designated\"][\"foot\"~\"designated\"][\"segregated\"~\"yes\"]",
+        "laneTypeGeneral": "Designated cycleway separated from cars and pedestrians",
+        "NO": "Sykkelvei separat fra biler og fotgjengere"
+    },
+    {
+        "laneTypeSpecific": "shared_pathway_for_pedestrians_and_bicyclists",
+        "customFilter": "[\"bicycle\"~\"designated\"][\"foot\"~\"designated\"][\"segregated\"~\"no\"]",
+        "laneTypeGeneral": "Cycleway shared with pedestrians",
+        "NO": "Sykkelvei delt med fotgjengere"
+    },
+    {
+        "laneTypeSpecific": "pedestrian_way",
+        "customFilter": "[\"highway\"~\"pedestrian\"]",
+        "laneTypeGeneral": "Pedestrial way",
+        "NO": "G\u00e5gate/vei"
+    },
+    {
+        "laneTypeSpecific": "pedestrian_way_area",
+        "customFilter": "[\"highway\"~\"pedestrian\"][\"area\"~\"yes\"]",
+        "laneTypeGeneral": "Pedestrial way",
+        "NO": "G\u00e5gate/vei"
+    },
+    {
+        "laneTypeSpecific": "designated_cycleway",
+        "customFilter": "[\"highway\"~\"cycleway\"]",
+        "laneTypeGeneral": "Designated cycleway",
+        "NO": "Sykkelvei"
+    },
+    {
+        "laneTypeSpecific": "footway",
+        "customFilter": "[\"highway\"~\"footway\"]",
+        "laneTypeGeneral": "Footway",
+        "NO": "Fortau"
+    },
+    {
+        "laneTypeSpecific": "road_with_no_bike_lane",
+        "customFilter": "[\"highway\"~\"secondary|tertiary|residential|unclassified\"]",
+        "laneTypeGeneral": "Road with no bike lane",
+        "NO": "Vei uten sykkelfil"
+    }
+]

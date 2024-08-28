@@ -1,0 +1,80 @@
+[
+    {
+        "category": "Bicycle and footpath",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "highway": "cycleway",
+            "bicycle": "designated"
+        }
+    },
+    {
+        "category": "Designated cycleway, segregated",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "highway": "cycleway",
+            "segregated": "yes"
+        }
+    },
+    {
+        "category": "Road with bike lane",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "cycleway": "lane"
+        }
+    },
+    {
+        "category": "Road with bike lane",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "oneway:bicycle": "no"
+        }
+    },
+    {
+        "category": "Footpath",
+        "parent": "Footway",
+        "criteria": {
+            "highway": "footway"
+        }
+    },
+    {
+        "category": "Sidewalk",
+        "parent": "Footway",
+        "criteria": {
+            "footway": "sidewalk"
+        }
+    },
+    {
+        "category": "Pedestrian way",
+        "parent": "Footway",
+        "criteria": {
+            "highway": "pedestrian"
+        }
+    },
+    {
+        "category": "Pedestrian way",
+        "parent": "Footway",
+        "criteria": {
+            "highway": "pedestrian",
+            "area": "yes"
+        }
+    },
+    {
+        "category": "Road with one-directional cycleway",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "cycleway:left": "lane"
+        }
+    },
+    {
+        "category": "Road with one-directional cycleway",
+        "parent": "Designated cyclepath",
+        "criteria": {
+            "cycleway:right": "lane"
+        }
+    },
+    {
+        "category": "Road without bike lane",
+        "parent": "Road without bike lane",
+        "criteria": {}
+    }
+]
